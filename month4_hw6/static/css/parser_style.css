@@ -1,0 +1,18 @@
+body{
+    background: url("https://thumbs.dreamstime.com/b/brick-walls-neon-light-background-rays-glow-211376300.jpg");
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  background-color: aliceblue;
+  color: black;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 10px; /* Толщина линии */
+   }

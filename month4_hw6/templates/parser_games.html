@@ -1,0 +1,16 @@
+{% include 'header.html' %}
+<center>
+    <br>
+    <hr>
+<div class="p-3 mb-2 bg-info  text-white" style="width: 25rem;">
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+  <button type="submit">Начать поиск</button>
+  </form>
+  <button><a href="/game_list/">Показать список игр</a></button>
+</div>
+    <br>
+    <hr>
+</center>
+{% include 'footer.html' %}
